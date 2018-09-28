@@ -1,4 +1,9 @@
 spring:
+    rabbitmq:
+    port: 5672
+    username: root
+    password: root
+    host: 192.168.236.128
   application:
     name: order
   datasource:
@@ -17,8 +22,4 @@ PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
 env: test
-  rabbitmq:
-    port: 5672
-    username: root
-    password: root
-    host: 192.168.236.128
+
