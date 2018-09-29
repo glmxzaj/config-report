@@ -11,8 +11,7 @@ spring:
     username: root
     password: root
     host: 192.168.236.128
-server:
-  port: 8082
+
 eureka:
   client:
     service-url:
