@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    port: 5672
+    username: root
+    password: root
+    host: 192.168.236.128
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
